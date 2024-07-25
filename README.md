@@ -1,8 +1,9 @@
 # Algorithm_Note
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+## 1. Linear Regression
+## 2. Lasso \ Ridge
+## 3. SVM
+## 4. Naive Bayes
+## 5. Logistic Regression
+## 6. KNN
+## 7. Decision Tree
+
