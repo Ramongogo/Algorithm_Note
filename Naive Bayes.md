@@ -12,7 +12,7 @@
 * 藉由假設變數為常態分配的情況下，以樣本的資料的標準差及變異數來計算機率
 ## Python 程式碼
 1.      from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB(二元分類)
-2.  Parameter :
+2.  Parameters :
     * GaussianNB()
       * var_smoothing : 添加到方差中的一個小常數，防止除以零
     * MultinomialNB()
