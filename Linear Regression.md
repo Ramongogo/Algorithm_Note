@@ -10,7 +10,7 @@
 1.     from sklearn.metrics import mean_squared_error
 2.     linearModel = LinearRegression()
 3.     linearModel.fit(X, y)
-4. Parameters:
+4. Parameters :
    * fit_intercept : 是否有截距，如果沒有則直線過原點。
    * Attributes :
      * coef_ : 取得係數。
