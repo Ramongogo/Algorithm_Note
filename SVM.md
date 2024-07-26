@@ -11,9 +11,7 @@
 9. L = 2 / |(向量 w )|
 ## Python 方程式
 1.      from sklearn.svm import svc
-2.      Model = SVC()
-3.      model.fit(x, y)
-4.  Parameters :
+2. Parameters :
       * C(懲罰參數) : 限制模型的複雜度，防止過度擬合
       * kernel :
         * linear：線性核
