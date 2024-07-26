@@ -9,7 +9,7 @@
 ## Python 程式碼
 1.     from sklearn.metrics import mean_squared_error
 2.     linearModel = LinearRegression()
-3.     linearModel.fit(X, y)
+3.     linearModel.fit(x, y)
 4. Parameters :
    * fit_intercept : 是否有截距，如果沒有則直線過原點。
 5. Attributes :
@@ -24,5 +24,5 @@
          return make_pipeline(PolynomialFeatures(degree), LinearRegression(**kwargs))
         // degree是維度的程度, **kwargs允許使用LinearRegression的參數
 5.     for degree in [1,3,9]:
-         y_test=PolynomialRegression(degree).fit(X,y).predict(x_test)
+         y_test=PolynomialRegression(degree).fit(x,y).predict(x_test)
        // 檢測不同維度下的擬合程度
