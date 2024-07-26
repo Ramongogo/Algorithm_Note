@@ -8,11 +8,9 @@
 6. 得出 (a,b) 為 (-0.33, 1.5)
 ## Python 程式碼
 1.     from sklearn.metrics import mean_squared_error
-2.     linearModel = LinearRegression()
-3.     linearModel.fit(x, y)
-4. Parameters :
+2. Parameters :
    * fit_intercept : 是否有截距，如果沒有則直線過原點。
-5. Attributes :
+3. Attributes :
     * coef_ : 取得係數。
     * intercept_ : 取得截距。
 ## 多項式回歸
