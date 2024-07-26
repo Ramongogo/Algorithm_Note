@@ -16,7 +16,7 @@
      * coef_ : 取得係數。
      * intercept_ : 取得截距。
 ### 多項式回歸
-**使用make_pipeline將PolynomialFeatures與LinearRegression整合成一個多項式回歸模型**
+**使用 make_pipeline 將 PolynomialFeatures 與 LinearRegression 整合成一個多項式回歸模型**
 1.     from sklearn.linear_model import LinearRegression
 2.     from sklearn.preprocessing import PolynomialFeatures
 3.     from sklearn.pipeline import make_pipeline
