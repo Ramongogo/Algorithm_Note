@@ -13,7 +13,7 @@
 ### SVR
 * 在 SVR 中，目標是找到一條平滑的回歸線，使得大多數數據點都落在距離該線 ε 範圍內的區間內。 ε = 不敏感區間, 類似svm邊界距離
 ## Python 方程式
-1.      from sklearn.svm import svc
+1.      from sklearn.svm import SVC, SVR
 2. Parameters :
       * C(懲罰參數) : 限制模型的複雜度，防止過度擬合
       * kernel :
