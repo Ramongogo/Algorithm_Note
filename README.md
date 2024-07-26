@@ -4,6 +4,6 @@
 ## 3. [SVM](https://github.com/Ramongogo/Algorithm_Note/blob/main/SVM.md)
 ## 4. [Naive Bayes](https://github.com/Ramongogo/Algorithm_Note/blob/main/Naive%20Bayes.md)
 ## 5. [Logistic Regression](https://github.com/Ramongogo/Algorithm_Note/blob/main/Logistic%20Regression.md)
-## 6. KNN
+## 6. [KNN](https://github.com/Ramongogo/Algorithm_Note/blob/main/KNN.md)
 ## 7. Decision Tree
 
