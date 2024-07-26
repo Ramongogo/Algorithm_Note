@@ -9,20 +9,14 @@
 ## Python 程式碼
 ### Lasso
 1.     from sklearn.linear_model import Lasso
-2.     Model = Lasso()
-3.     Model.fit(x, y)
-4. Parameter :
+2. Parameter :
      * alpha : 決定正則化強度
 ### Ridge
 1.      from sklearn.linear_model import Ridge
-2.      Model = Ridge() 
-3.      Model.fit(x, y)
-4.  Paramter :
+2.  Paramter :
      * alpha
 ### ElasticNet
 1.      from sklearn.linear_model import ElasticNet
-2.      model = ElasticNet()
-3.      model.fit(x, y)
-4.  Paramter :
+2.  Paramter :
      * alpha
      * l1_ratio
