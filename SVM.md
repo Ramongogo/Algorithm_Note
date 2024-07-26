@@ -1,5 +1,6 @@
 ## 找到一個決策邊界(decision boundary)讓分類之間的邊界距離(margins)達到最大
 ## 原理
+### SVM
 1. 先在正超平面以及負超平面隨機找兩點 m 與 n 
 2. 正超平面方程式為 : w1xm + w2xm + b = 1， 負超平面公式為 w1xn + w2xn + b = -1
 3. 兩方程式相減可得 w1(xm - xn) + w2(xm - xn) = 2，整理後為 (向量 w ) * (xm - xn) = 2
@@ -9,6 +10,8 @@
 7. 則此式 (向量 w ) * (xm - xn) = 2 會等於 |xm - xn| * cosθ * |向量 w| = 2
 8. |xm - xn| * cosθ = L，為 |xm - xn| 投影到 (向量 w ) 的長度，也就是邊界長度
 9. L = 2 / |(向量 w )|
+### SVR
+* 在 SVR 中，目標是找到一條平滑的回歸線，使得大多數數據點都落在距離該線 ε 範圍內的區間內。 ε = 不敏感區間, 類似svm邊界距離
 ## Python 方程式
 1.      from sklearn.svm import svc
 2. Parameters :
