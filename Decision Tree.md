@@ -1,6 +1,11 @@
 ## 據資料找出合適的規則，其目的使每一個決策能夠使訊息增益最大化
 ## 原理
-1. 11
+1. 依靠亂度作為評估指標，每次決策都要使亂度最低
+2.  決策亂度評估指標 ：
+      * Information gain (資訊獲利 ： 計算熵)
+      * Gain ratio (吉尼獲利)
+      * Gini index (吉尼係數) = Gini Impurity (吉尼不純度)
+3. 熵公式 ： -Σp * log
 ## Python 程式碼
 1.      from sklearn.tree import DecisionTreeClassifier
 2.  Parameters :
