@@ -33,5 +33,5 @@
 ## Python 程式碼
 1.      from sklearn.tree import RandomForestClassifier, RandomForestRegressor
 2.  Parameters :
-        * n_estimators : 樹的數量，預設 = 100
-        * max_features : 劃分時考慮的最大特徵
+     * n_estimators : 樹的數量，預設 = 100
+     * max_features : 劃分時考慮的最大特徵
