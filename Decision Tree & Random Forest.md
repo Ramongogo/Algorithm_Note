@@ -6,7 +6,7 @@
       * Gini Impurity (吉尼不純度 : 計算 Gini)
 3. 熵公式 ： -ΣP * log2 P，資訊獲利公式 : -P * log2 P - q * log2 q // P為是的機率，q為否
 4. Gini 公式 : 1 - ΣP^2，Gini Impurity公式 : 1 - (P^2 + q^2)
-## Python 程式碼
+## Python Package
 1.      from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 2.  Parameters :
      * criterion :
