@@ -10,7 +10,7 @@
 6. P7 / (P7 + P8) 為真正的機率
 ### 高斯貝氏(連續變數)
 * 藉由假設變數為常態分配的情況下，以樣本的資料的標準差及變異數來計算機率
-## Python 程式碼
+## Python Package
 1.      from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB(二元分類)
 2.  Parameters :
     * GaussianNB()
