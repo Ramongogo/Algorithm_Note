@@ -1,6 +1,6 @@
 ## Bagging 透過隨機抽樣的方式生成每一棵樹，最重要的是每棵樹彼此獨立並無關聯
 ## Boosting 則是透過序列的方式生成樹，後面所生成的樹會與前一棵樹相關
-## AdaBoost
+## 1. AdaBoost
 ## 原理
 1. 先假設每個資料點權重皆相同
 2. 找出錯誤點並帶入公式 (1 - ε(error rate) / ε)^1/2 * w，使錯誤點的權重提高，正確的點 w 則除以 (1 - ε(error rate) / ε)^1/2 
@@ -15,7 +15,7 @@
      * n_estimators ： 樹的數量。
      * learning_rate : ε
      * base_estimator ： 通常是決策樹
-## XGBoost
+## 2. XGBoost
 ## 原理
 1. 先進行基本預測，再來隨機取特徵與資料量，計算資料與預測的殘差(R)，建構第一顆樹
 2. 計算各節點 Similarity Scores = ΣR^2 / (殘差的數量 + λ(正則化參數))、Gain = Σ 分裂後葉子的 Similarity Scores - 根的Similarity Scores
@@ -32,7 +32,7 @@
      * max_depth ： 樹的最大深度。
      * subsample ： 訓練每棵樹的樣本比例
      * colsample_bytree ： 訓練每棵樹的特徵比例
-## Catboost
+## 3. Catboost
 ## 原理與 XGBoost 相同
 ## 優勢
 1. 能自動處理類別型特徵與缺失值
