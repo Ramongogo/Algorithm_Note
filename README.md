@@ -8,3 +8,4 @@
 ### 7. [Decision Tree & Random Forest](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/Decision%20Tree%20&%20Random%20Forest.md)
 ### 8. [K-MEANS](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/K-MEANS.md)
 ### 9. [DBSCAN](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/DBSCAN.md)
+### 10. [Boosting](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/Boosting.md)
