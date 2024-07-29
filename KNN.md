@@ -6,7 +6,7 @@
      * 明氏距離 : d = (Σ( x - y)^p)^1/p
      * 曼哈頓距離 : d = Σ | x - y |
      * 歐幾里德距離 : d = (Σ( x - y)^2)^1/2
-## Python 程式碼
+## Python Package
 1.      from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
 2.  Parameters :
       * n_neighbors：k的值
