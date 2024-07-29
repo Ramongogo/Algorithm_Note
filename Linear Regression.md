@@ -6,7 +6,7 @@
 4. 對等式乘以等式左邊矩陣的轉至矩陣
 5. 再乘以等式左邊的反矩陣
 6. 得出 (a,b) 為 (-0.33, 1.5)
-## Python 程式碼
+## Python Package
 1.     from sklearn.metrics import mean_squared_error
 2. Parameters :
    * fit_intercept : 是否有截距，如果沒有則直線過原點。
