@@ -6,7 +6,7 @@
 * 當都是重要的特徵，可以處理多元共線性問題，但 Ridge 並不能使估計出的係數為 0，所以無法做變數篩選
 ## ElasticNet
 * 可適用在覺得不是每個特徵都是非常重要的特徵但同時也不想要像 Lasso 有那麼強的特徵篩選功能
-## Python 程式碼
+## Python Package
 ### Lasso
 1.     from sklearn.linear_model import Lasso
 2. Parameters :
