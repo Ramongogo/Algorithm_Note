@@ -5,7 +5,7 @@
 3. 計算每個樣本與每個群心之距離，並將樣本歸類分配給距離最近的群心
 4. 通過分配給每個先前群心的所有樣本的平均值重新計算新群心
 5. 重複步驟3與步驟4，直到群心不再有大的變動
-## Python 程式碼
+## Python Package
 1.      from sklearn.cluster import KMeans
 2.  Parameters :
      * n_clusters : k 的值
