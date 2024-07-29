@@ -7,7 +7,7 @@
 5. 取 log 後 ln(P / 1 - P) = x
 6. 用最大概似法求出 x 的係數值
 7. 再帶入 sigmoid function 求出 P
-## Python 方程式
+## Python Package
 1.      from sklearn.linear_model import LogisticRegression
 2.  Parameters :
      * penalty : 正規化 l1 / l2 ，防止模型過度擬合
