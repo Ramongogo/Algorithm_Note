@@ -1,5 +1,5 @@
 ## Bagging 透過隨機抽樣的方式生成每一棵樹，最重要的是每棵樹彼此獨立並無關聯
-## Boosting 則是透過序列的方式生成樹，後面所生成的樹會與前一棵樹相關，並更進步
+## Boosting 則是透過序列的方式生成樹，後面所生成的樹會與前一棵樹相關
 ## AdaBoost
 ## 原理
 1. 先假設每個資料點權重皆相同
@@ -33,4 +33,15 @@
      * subsample ： 訓練每棵樹的樣本比例
      * colsample_bytree ： 訓練每棵樹的特徵比例
 ## Catboost
-## 原理與 XGBoost 相同，但能多處理非數值型態資料
+## 原理與 XGBoost 相同
+## 優勢
+1. 能自動處理類別型特徵與缺失值
+2. 可以處理各種數據類型，如音頻、圖像
+3. 減少人工調參的需要，並降低了過擬合的機率
+## Python Package
+1.       from catboost import CatBoostClassifier
+2. Parameters :
+     * iterations ： 樹的數量。
+     * learning_rate : ε
+     * depth ： 樹的最大深度。
+     * cat_features = 類別型特徵列索引
