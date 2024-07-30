@@ -24,3 +24,6 @@
 5.     for degree in [1,3,9]:
          y_test=PolynomialRegression(degree).fit(x,y).predict(x_test)
        // 檢測不同維度下的擬合程度
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
