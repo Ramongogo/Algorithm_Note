@@ -9,3 +9,6 @@
 2.  Parameters :
      * eps : ε值
      * min_samples： minPts值
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
