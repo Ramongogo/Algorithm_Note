@@ -18,3 +18,6 @@
        * sag
        * saga
     * C : 正則化的強度
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
