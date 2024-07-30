@@ -25,3 +25,6 @@
       * gamma : 適用於 'rbf'、'poly' 和 'sigmoid' 核，控制單個訓練樣本的影響範圍
         *  scale（1 / (n_features * X.var())）
         *  auto（1 / n_features）
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
