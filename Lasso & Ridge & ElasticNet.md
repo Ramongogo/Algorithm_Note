@@ -20,3 +20,6 @@
 2.  Paramters :
      * alpha
      * l1_ratio
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
