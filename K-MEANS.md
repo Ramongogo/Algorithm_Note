@@ -12,3 +12,6 @@
      * max_iter : 單次運行迭代次數
      * tol：如果在一个迭代中，群心的位移小於這個值，算法將提前結束
      * n_init：運行算法的次數，計算最佳為結果
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
