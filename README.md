@@ -9,3 +9,4 @@
 ### 8. [K-MEANS](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/K-MEANS.md)
 ### 9. [DBSCAN](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/DBSCAN.md)
 ### 10. [Boosting](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/Boosting.md)
+### 11. [Auto-sklearn](https://github.com/Ramongogo/Machine_Learning_Note/blob/main/Auto-sklearn.md)
