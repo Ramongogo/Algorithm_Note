@@ -14,3 +14,6 @@
           * uniform : 所有鄰居權重相等
           * distance：權重與距離成反比
           * p : 明氏距離的p值
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
