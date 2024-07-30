@@ -21,4 +21,5 @@
       * alpha
       * binarize：用於將數據二值化
   
-    
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5    
