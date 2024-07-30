@@ -45,3 +45,6 @@
      * learning_rate : ε
      * depth ： 樹的最大深度。
      * cat_features = 類別型特徵列索引
+
+## Reference
+https://ithelp.ithome.com.tw/users/20107247/articles?page=5
